@@ -1,0 +1,22 @@
+:root {
+  --btn-bg-color: #0d0c22;
+  --btn-bg-color-hover: #565564;
+  --btn-text-color: #ffffff;
+  --btn-text-color-hover: #ffffff;
+  --btn-border-color: var(--btn-bg-color);
+  --btn-border-color-hover: var(--btn-bg-color-hover);
+  /*  */
+  --color-gray-200: #f3f3f3;
+  --color-gray-300: #cdcdd0;
+  --color-gray-400: #a6a6ad;
+  --color-yellow: #ffda79;
+  --color-blue: #c2f4fb;
+  --color-purple: #cbdbff;
+  --color-red: #e54b4d;
+  --color-pink: #ff869d;
+  --color-orange: #fcd0ba;
+  /*  */
+  --btn-height: 4.2rem;
+  --btn-padding: 2rem;
+  --btn-font-size: 1.8rem;
+}
