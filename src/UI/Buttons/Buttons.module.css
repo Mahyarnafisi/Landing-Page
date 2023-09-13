@@ -1,0 +1,33 @@
+.buttonPrimary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: max-content;
+  height: var(--btn-height);
+  font-size: var(--btn-font-size);
+  background-color: var(--btn-bg-color);
+  padding: var(--btn-padding);
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  color: var(--btn-text-white);
+  cursor: pointer;
+}
+
+.buttonSecondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: max-content;
+  height: var(--btn-height);
+  font-size: var(--btn-font-size);
+  background-color: transparent;
+  padding: var(--btn-padding);
+  border: var(--btn-border-color);
+  outline: none;
+  border-radius: 999px;
+  color: var(--btn-text-black);
+  cursor: pointer;
+}

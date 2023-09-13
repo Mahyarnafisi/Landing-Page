@@ -1,0 +1,6 @@
+.marquee {
+  background-color: red;
+  width: 100%;
+  height: min-content;
+  padding: 2rem 0;
+}

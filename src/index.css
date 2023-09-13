@@ -1,8 +1,10 @@
 :root {
   --btn-bg-color: #0d0c22;
   --btn-bg-color-hover: #565564;
-  --btn-text-color: #ffffff;
-  --btn-text-color-hover: #ffffff;
+  --btn-text-white: #ffffff;
+  --btn-text-white-hover: #ffffff;
+  --btn-text-black: #333333;
+  --btn-text-black-hover: #333333;
   --btn-border-color: var(--btn-bg-color);
   --btn-border-color-hover: var(--btn-bg-color-hover);
   /*  */
@@ -16,7 +18,55 @@
   --color-pink: #ff869d;
   --color-orange: #fcd0ba;
   /*  */
-  --btn-height: 4.2rem;
-  --btn-padding: 2rem;
+  --btn-height: 4.6rem;
+  --btn-padding: 3rem 4rem;
   --btn-font-size: 1.8rem;
+
+  /*  */
+  --fs-sm: 1.6rem;
+  --fs-md: 2.1rem;
+  --fs-lg: 3.6rem;
+  --fs-xl: 5.6rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  line-height: 1.1;
+  letter-spacing: -3px;
+}
+h2 {
+  line-height: 1.2;
+}
+
+h3 {
+  line-height: 1.4;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5vw;
 }
