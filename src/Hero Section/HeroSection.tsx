@@ -8,7 +8,7 @@ function HeroSection() {
       <div className="container">
         <div className={Styles.section}>
           <Badge>Over 3 million ready-to-work creatives in our community!</Badge>
-          <h1 className={Styles.headingHome}>Hire the world’s top creative talent.</h1>
+          <h1 className={Styles.headingHome}>Work with world’s top creative talent.</h1>
           <p className={Styles.subHeader}>Connect with a community of millions of top-rated designers & agencies around the world.</p>
           <ButtonPrimary>Start hiring today</ButtonPrimary>
           <ButtonSecondary>hello</ButtonSecondary>
