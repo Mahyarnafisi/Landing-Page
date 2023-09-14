@@ -1,3 +1,5 @@
+import elif from "../assets/img/";
+
 const MarqueeCard = [
   {
     id: 1,

@@ -23,10 +23,16 @@
   --btn-font-size: 1.8rem;
 
   /*  */
-  --fs-sm: 1.6rem;
+  --fs-sm: 1.8rem;
   --fs-md: 2.1rem;
   --fs-lg: 3.6rem;
   --fs-xl: 5.6rem;
+  --fs-xxl: 6.4rem;
+  --fs-xxxl: 7.6rem;
+  /*  */
+  --radius-lg: 2rem;
+  --radius-md: 1rem;
+  --radius-sm: 0.5rem;
 }
 
 * {
@@ -50,15 +56,22 @@ li {
 }
 
 h1 {
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: -3px;
+  font-weight: 500;
 }
 h2 {
-  line-height: 1.2;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: -1px;
 }
 
 h3 {
   line-height: 1.4;
+  font-weight: 600;
+}
+p {
+  line-height: 1.7;
 }
 
 .container {
@@ -68,5 +81,5 @@ h3 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 5vw;
+  padding: 20rem 5vw;
 }

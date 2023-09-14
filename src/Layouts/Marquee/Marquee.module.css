@@ -9,7 +9,7 @@
 
 .marquee::after {
   content: "";
-  width: 300px;
+  width: 400px;
   height: 100%;
   background-image: linear-gradient(270deg, transparent 0%, #ffffff 100%);
   top: 0;
@@ -20,7 +20,7 @@
 
 .marquee::before {
   content: "";
-  width: 300px;
+  width: 400px;
   height: 100%;
   background-image: linear-gradient(90deg, transparent 0%, #ffffff 100%);
   top: 0;
@@ -34,8 +34,10 @@
 
 .marqueeBar h1 {
   margin: 1rem;
-  width: 20rem;
-  height: 30rem;
+  width: 30rem;
+  height: 35rem;
   background-color: var(--color-gray-200);
   z-index: 100;
+  border-radius: var(--radius-lg);
+  padding: 2rem;
 }

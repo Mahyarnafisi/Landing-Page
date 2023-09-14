@@ -1,6 +1,6 @@
 import Styles from "./HeroSection.module.css";
 import Badge from "../UI/Badge/Badge";
-import { ButtonPrimary, ButtonSecondary } from "../UI/Buttons/Buttons";
+import { ButtonPrimary } from "../UI/Buttons/Buttons";
 
 function HeroSection() {
   return (
@@ -11,7 +11,6 @@ function HeroSection() {
           <h1 className={Styles.headingHome}>Work with world’s top creative talent.</h1>
           <p className={Styles.subHeader}>Connect with a community of millions of top-rated designers & agencies around the world.</p>
           <ButtonPrimary>Start hiring today</ButtonPrimary>
-          <ButtonSecondary>hello</ButtonSecondary>
         </div>
       </div>
     </div>

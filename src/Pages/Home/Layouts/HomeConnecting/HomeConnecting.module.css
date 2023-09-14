@@ -1,0 +1,22 @@
+.Connecting {
+  width: 100%;
+  padding: 20rem 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: transparent;
+}
+
+.connecting__title {
+  font-size: var(--fs-xxxl);
+  text-align: center;
+  width: 50%;
+}
+
+.connecting__text {
+  font-size: var(--fs-md);
+  width: 40%;
+  text-align: center;
+}
