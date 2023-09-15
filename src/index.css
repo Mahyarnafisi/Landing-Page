@@ -7,6 +7,9 @@
   --btn-text-black-hover: #333333;
   --btn-border-color: var(--btn-bg-color);
   --btn-border-color-hover: var(--btn-bg-color-hover);
+  --color-text-white: #ffffff;
+  --color-text-black: #333333;
+  --color-bg-black: #0d0c22;
   /*  */
   --color-gray-200: #f3f3f3;
   --color-gray-300: #cdcdd0;
@@ -17,22 +20,23 @@
   --color-red: #e54b4d;
   --color-pink: #ff869d;
   --color-orange: #fcd0ba;
+
   /*  */
   --btn-height: 4.6rem;
   --btn-padding: 3rem 4rem;
   --btn-font-size: 1.8rem;
 
   /*  */
-  --fs-sm: 1.8rem;
-  --fs-md: 2.1rem;
-  --fs-lg: 3.6rem;
+  --fs-sm: 1.6rem;
+  --fs-md: 2rem;
+  --fs-lg: 3.2rem;
   --fs-xl: 5.6rem;
   --fs-xxl: 6.4rem;
   --fs-xxxl: 7.6rem;
   /*  */
-  --radius-lg: 2rem;
-  --radius-md: 1rem;
-  --radius-sm: 0.5rem;
+  --radius-lg: 3rem;
+  --radius-md: 1.5rem;
+  --radius-sm: 0.7rem;
 }
 
 * {
@@ -68,7 +72,7 @@ h2 {
 
 h3 {
   line-height: 1.4;
-  font-weight: 600;
+  font-weight: 400;
 }
 p {
   line-height: 1.7;
