@@ -8,7 +8,7 @@ import profile7 from "./../assets/img/profile-7.jpg";
 import profile8 from "./../assets/img/profile-8.jpg";
 import profile9 from "./../assets/img/profile-9.jpg";
 import profile10 from "./../assets/img/profile-10.jpg";
-const MarqueeData = [
+export const marqueeData = [
   {
     id: 1,
     name: "Elif Kameşoğlu",
@@ -80,5 +80,3 @@ const MarqueeData = [
     image: profile10,
   },
 ];
-
-export default MarqueeData;

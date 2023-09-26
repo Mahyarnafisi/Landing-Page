@@ -1,10 +1,14 @@
 import Styles from "./Buttons.module.css";
 
-function ButtonPrimary({ children }) {
+type ButtonProps = {
+  children: React.ReactNode;
+};
+
+function ButtonPrimary({ children }: ButtonProps) {
   return <button className={Styles.buttonPrimary}>{children}</button>;
 }
 
-function ButtonSecondary({ children }) {
+function ButtonSecondary({ children }: ButtonProps) {
   return <button className={Styles.buttonSecondary}>{children}</button>;
 }
 export { ButtonPrimary, ButtonSecondary };

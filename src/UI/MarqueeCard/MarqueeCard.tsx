@@ -1,6 +1,13 @@
 import Styles from "./MarqueeCard.module.css";
 
-function MarqueeCard({ name, job, tag, image }) {
+type MarqueeProps = {
+  name: string;
+  job: string;
+  tag: string[];
+  image: string;
+};
+
+function MarqueeCard({ name, job, tag, image }: MarqueeProps) {
   return (
     <div className={Styles.marqueeCard} style={{ backgroundImage: `url(${image}),` }}>
       <div className={Styles.card__header}>
