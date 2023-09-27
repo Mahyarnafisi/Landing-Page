@@ -1,0 +1,31 @@
+.marqueeHeader {
+  width: 100%;
+  padding: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.marqueeHeader::-webkit-scrollbar {
+  display: none;
+}
+
+/* .marqueeHeader::after {
+  content: "";
+  width: 40rem;
+  height: 100%;
+  background-image: linear-gradient(-90deg, transparent 0%, #ffffff 100%);
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 100;
+}
+
+.marqueeHeader::before {
+  content: "";
+  width: 40rem;
+  height: 100%;
+  background-image: linear-gradient(90deg, transparent 0%, #ffffff 100%);
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: 100;
+} */

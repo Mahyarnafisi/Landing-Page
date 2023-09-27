@@ -12,6 +12,7 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
+  background-color: red;
 }
 
 .card__header h2 {

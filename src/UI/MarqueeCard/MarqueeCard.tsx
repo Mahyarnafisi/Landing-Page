@@ -9,7 +9,7 @@ type MarqueeProps = {
 
 function MarqueeCard({ name, job, tag, image }: MarqueeProps) {
   return (
-    <div className={Styles.marqueeCard} style={{ backgroundImage: `url(${image}),` }}>
+    <div className={Styles.marqueeCard} style={{ backgroundImage: `url(${image})` }}>
       <div className={Styles.card__header}>
         <h2>{name}</h2>
         <h3>{job}</h3>
