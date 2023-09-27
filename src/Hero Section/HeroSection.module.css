@@ -16,12 +16,9 @@
   width: 55%;
   text-align: center;
   transition: all 0.3s;
-  animation: fadeInTitle 1s;
 }
 .headingHome span {
   font-weight: 800;
-
-  animation: fadeInTitle 1s;
 }
 
 .subHeader {
@@ -35,13 +32,4 @@
   justify-content: center;
   flex-direction: column;
   gap: 4rem;
-}
-
-@keyframes fadeInTitle {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
