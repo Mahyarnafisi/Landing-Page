@@ -12,7 +12,7 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-  background-color: red;
+  transition: all 0.3s;
 }
 
 .card__header h2 {
